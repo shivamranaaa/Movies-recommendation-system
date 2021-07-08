@@ -1,1 +1,1 @@
-# Deployment of salaray-predict model
+# Deployment of Recommendation system model
