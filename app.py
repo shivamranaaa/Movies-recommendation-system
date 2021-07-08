@@ -11,7 +11,7 @@ mat_movies_users = pickle.load(open("mat_movies_users.pkl", 'rb'))
 model_knn=pickle.load(open('model_knn.pkl','rb'))
 df_movies=pickle.load(open('df_movies.pkl','rb'))
 
-app = Flask(__name__)
+app= Flask(__name__)
 
 @app.route('/')
 def home():
